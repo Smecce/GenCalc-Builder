@@ -63,3 +63,7 @@ mkdir build && cd build
 cmake ..
 cmake --build . --config Release
 ./GenCalculator   # или .\Release\GenCalculator.exe в Windows
+
+### ---------------
+Чтобы скомпилировать в Windows можно выполнить 
+build.bat
