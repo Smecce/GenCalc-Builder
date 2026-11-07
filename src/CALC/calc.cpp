@@ -17,9 +17,9 @@ void Calc::Enumerate(int n)
 	b.hideCursor();
 	b.clearScreen();
 
-	b.print(100, 5, "=== Счётчик ===");
-	b.print(100, 6, "Значение: 0");
-	b.print(100, 7, "Статус: работает");
+	b.print(50, 5, "=== Счётчик ===");
+	b.print(50, 6, "Значение: 0");
+	b.print(50, 7, "Статус: работает");
 	std::cout.flush(); // Принудительно сбрасываем буфер, чтобы текст появился сразу
 
 	std::ostringstream oss;
@@ -33,7 +33,7 @@ void Calc::Enumerate(int n)
 		oss.clear();
 
 		oss << "Значение: " << i << "       ";
-		b.print(100, 6, oss.str());
+		b.print(50, 6, oss.str());
 
 		std::cout.flush();
 	}
