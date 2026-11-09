@@ -1,11 +1,8 @@
-dotnet nuget locals all --clear
-
 
 git clone https://github.com/Smecce/GenCalc-Builder.git
 
 
 https://github.com/microsoft/VisualStudioUninstaller/releases/download/v1.4/TotalUninstaller.zip
-
 
 
 - VSCode
@@ -64,7 +61,7 @@ Ctrl+Shift+P -> CMake: Build (собрать проект).
 Нажать F5 для запуска.
 F7 - собрать (билдить) проект
 ====================================================
-Этими командами указываем системе, сто все Git будут с этими именем и майлом:
+Этими командами указываем системе, что все Git будут с этими именем и майлом:
 git config --global user.name "Ваше Имя"
 git config --global user.email "ваш-email@example.com"
 ====================================================
